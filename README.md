@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< HEAD
-# AirBnb-Visualization
-=======
-=======
->>>>>>> 4ae8403 (giaphu)
 # Airbnb Data Visualization
 ## 1. Giới thiệu
 ### Mục tiêu:
