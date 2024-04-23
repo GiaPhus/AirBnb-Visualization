@@ -1,6 +1,9 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 # AirBnb-Visualization
 =======
+=======
+>>>>>>> 4ae8403 (giaphu)
 # Airbnb Data Visualization
 ## 1. Giới thiệu
 ### Mục tiêu:
@@ -58,5 +61,4 @@ Thông tin chi tiết của dataset:
     last_review: Ngày đánh giá gần nhất của phòng.
     reviews_per_month: Số lượng đánh giá trung bình mỗi tháng của phòng.
     calculated_host_listings_count: Số lượng phòng được tính toán bởi mỗi chủ sở hữu.
-    availability_365: Số ngày trong năm mà danh sách có sẵn để thuê.
->>>>>>> 4ae8403 (giaphu)
+
