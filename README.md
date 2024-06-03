@@ -1,59 +1,34 @@
 
 # Airbnb Data Visualization
-## 1. Giới thiệu
-### Mục tiêu:
+## 1. Introduction
+### Goal:
+The objective of this article is to assist readers in understanding and proficiently utilizing visualization libraries to effectively visualize data. Readers will gain the ability to present and analyze datasets collected from Airbnb, thereby identifying meaningful information and drawing insights and conclusions from the data.
 
-Mục tiêu của bài viết này là giúp độc giả hiểu và sử dụng thành thạo các thư viện visualization để trực quan hóa dữ liệu một cách hiệu quả. Bạn sẽ có khả năng trình bày và phân tích dataset thu thập được từ Airbnb, từ đó tìm ra các thông tin có ý nghĩa và đưa ra nhận định và kết luận từ dữ liệu.
-Phạm vi:
+Scope:
 
-Trong bài kì này, chúng ta sẽ tập trung vào sử dụng các gói thư viện như Matplotlib, Seaborn và Bokeh để phân tích và trực quan hóa dữ liệu thông qua các biểu đồ. Đồng thời, chúng ta cũng sẽ sử dụng Pandas và Spark để xử lý và quản lý dữ liệu một cách hiệu quả.
-Yêu cầu về cài đặt:
-
-Để thực hiện các dạng biểu đồ, chúng ta cần cài đặt các thư viện sau: Matplotlib, pandas, Seaborn, Bokeh.
-Cài đặt Matplotlib:
-
-## Cài đặt Matplotlib
-pip install matplotlib
-## Hoặc nếu bạn sử dụng Python 3
-pip3 install matplotlib
-## Hoặc sử dụng conda
-conda install matplotlib
-
-## Cài đặt Seaborn
-pip install seaborn
-## Hoặc nếu bạn sử dụng Python 3
-pip3 install seaborn
-## Hoặc sử dụng conda
-conda install seaborn
-
-## Cài đặt Bokeh
-pip install bokeh
-## Hoặc sử dụng conda
-conda install bokeh
-
+In this article, we will focus on utilizing libraries such as Matplotlib, Seaborn, and Bokeh to analyze and visualize data through various charts. Additionally, we will use Pandas and Spark for efficient data processing and management.
 
 # 2. Sơ lược về Dataset
 DataSet: New York City Airbnb Open Data
 
-Nguồn: https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data
+Source: https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data
 
-DataSet "Nyc_Airbnb" là một tập dữ liệu về việc cho thuê nhà trên nền tảng Airbnb tại New York City vào năm 2019. Tập dữ liệu này cung cấp thông tin về các loại phòng, các host cũng như vị trí của các căn hộ được đăng ký trên Airbnb tại thành phố New York.
+The "Nyc_Airbnb" dataset is a collection of data regarding Airbnb rentals in New York City in the year 2019. This dataset provides information about the types of accommodations, hosts, and the locations of apartments listed on Airbnb in the city of New York.
 
-Thông tin chi tiết của dataset:
+Detailed information about the dataset:
 
-    id: ID duy nhất của mỗi danh sách phòng.
-    name: Tên của phòng.
-    host_id: ID của người chủ sở hữu phòng.
-    host_name: Tên của người chủ sở hữu phòng.
-    neighbourhood_group: Nhóm khu vực của phòng.
-    neighbourhood: Khu vực cụ thể của phòng.
-    latitude: Vĩ độ của vị trí phòng.
-    longitude: Kinh độ của vị trí phòng.
-    room_type: Loại phòng.
-    price: Giá thuê của phòng.
-    minimum_nights: Số đêm tối thiểu mà một khách hàng phải đặt ít nhất khi thuê phòng.
-    number_of_reviews: Số lượng đánh giá của phòng.
-    last_review: Ngày đánh giá gần nhất của phòng.
-    reviews_per_month: Số lượng đánh giá trung bình mỗi tháng của phòng.
-    calculated_host_listings_count: Số lượng phòng được tính toán bởi mỗi chủ sở hữu.
-
+    id: Unique ID of each room listing.
+    name: Name of the room.
+    host_id: ID of the room's owner.
+    host_name: Name of the room's owner.
+    neighbourhood_group: Neighborhood group of the room.
+    neighbourhood: Specific neighborhood of the room.
+    latitude: Latitude of the room's location.
+    longitude: Longitude of the room's location.
+    room_type: Type of room.
+    price: Rental price of the room.
+    minimum_nights: Minimum number of nights a guest must book when renting the room.
+    number_of_reviews: Number of reviews of the room.
+    last_review: Date of the room's most recent review.
+    reviews_per_month: Average number of reviews per month for the room.
+    calculated_host_listings_count: Number of rooms calculated by each owner.
