@@ -1,5 +1,6 @@
 
 # Airbnb Data Visualization
+![Airbnb New York Map](New_York_City_District_Map.png)
 ## 1. Introduction
 ### Goal:
 The objective of this article is to assist readers in understanding and proficiently utilizing visualization libraries to effectively visualize data. Readers will gain the ability to present and analyze datasets collected from Airbnb, thereby identifying meaningful information and drawing insights and conclusions from the data.
