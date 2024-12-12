@@ -9,7 +9,7 @@ Scope:
 
 In this article, we will focus on utilizing libraries such as Matplotlib, Seaborn, and Bokeh to analyze and visualize data through various charts. Additionally, we will use Pandas and Spark for efficient data processing and management.
 
-# 2. Sơ lược về Dataset
+## 2. About Dataset
 DataSet: New York City Airbnb Open Data
 
 Source: https://www.kaggle.com/datasets/dgomonov/new-york-city-airbnb-open-data
